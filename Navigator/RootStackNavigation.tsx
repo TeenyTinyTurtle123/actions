@@ -1,7 +1,7 @@
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import { HomeScreen } from "../Screens/HomeScreen";
-import { SecondScreen } from "../Screens/SecondScreen";
+import { HomeScreen } from '../Screens/HomeScreen';
+import { SecondScreen } from '../Screens/SecondScreen';
 
 type RootStackParamList = {
   Home: undefined;
