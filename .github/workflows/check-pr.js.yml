@@ -24,5 +24,5 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
       - run: npm ci
-      - run: npx run form
-      - run: npx types
+      - run: npm run form
+      - run: npm types
