@@ -1,14 +1,21 @@
+<<<<<<< HEAD
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+=======
+import { NavigationContainer } from "@react-navigation/native";
+import { StatusBar } from "expo-status-bar";
+import RootStackNavigation from "./Navigator/RootStackNavigation";
+>>>>>>> 93360b2d3c6b845cb19e034966cacce37380142a
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Home! 🐛</Text>
+    <NavigationContainer>
       <StatusBar style="auto" />
-    </View>
+      <RootStackNavigation />
+    </NavigationContainer>
   );
 }
+<<<<<<< HEAD
 
 const styles = StyleSheet.create({
   container: {
@@ -18,3 +25,5 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+=======
+>>>>>>> 93360b2d3c6b845cb19e034966cacce37380142a
